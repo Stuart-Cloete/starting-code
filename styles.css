@@ -1,4 +1,3 @@
-/* RESET AND BASE STYLES */
 * {
   margin: 0;
   padding: 0;
@@ -81,7 +80,7 @@ p {
   margin-top: 20px;
 }
 
-/* ========== REQUIREMENT 1: CARDS ========== */
+
 .card {
   background-color: var(--card-bg);
   border-radius: 12px;
@@ -121,7 +120,7 @@ p {
   line-height: 1.7;
 }
 
-/* ========== REQUIREMENT 2: BUTTONS ========== */
+
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -194,7 +193,7 @@ p {
   margin: 20px 0;
 }
 
-/* ========== REQUIREMENT 3: CHIPS ========== */
+
 .chips-container {
   display: flex;
   flex-wrap: wrap;
@@ -248,7 +247,7 @@ p {
   color: var(--warning);
 }
 
-/* ========== REQUIREMENT 4: NAVIGATION ========== */
+
 .nav {
   display: flex;
   background-color: var(--card-bg);
@@ -294,7 +293,7 @@ p {
   border-bottom: 8px solid var(--body-bg);
 }
 
-/* ========== REQUIREMENT 5: FORMS ========== */
+
 .form-group {
   margin-bottom: 25px;
 }
@@ -336,7 +335,7 @@ p {
   font-family: inherit;
 }
 
-/* ========== REQUIREMENT 6: RESPONSIVE DESIGN ========== */
+
 @media (max-width: 768px) {
   body {
     padding: 10px;
